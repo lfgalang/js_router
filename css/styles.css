@@ -23,7 +23,7 @@ hr {
     height: 100%;
 }
 
-#main-page {
+#pageContainer {
     flex-grow: 1;
 }
 

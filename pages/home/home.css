@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+
+
+#topbarContainer{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    z-index: 2;
+}
+
+
+.homeContainer{
+    position: relative;
+    display: flex;
+    margin-top: 65px;
+}
+
+.homeLeft{
+    flex: 1;
+}
+
+.homeContainer .homeCenter{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeRight{
+    flex: 1;
+}

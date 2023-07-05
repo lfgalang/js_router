@@ -1,0 +1,103 @@
+
+#homeDescriptionContainer{
+    background: #191A1E;
+}
+
+.homeDescriptionContainer {
+    background: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-top: 7%;
+}
+
+.homeDescriptionContainer .firstDescription {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+}
+
+.homeDescriptionContainer .firstDescription .textContainer {
+    width: 480px;
+    margin-top: 20px;
+}
+
+.homeDescriptionContainer .title {
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.homeDescriptionContainer .text {
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+
+.homeDescriptionContainer .secondDescription {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.homeDescriptionContainer .secondDescription .img1 {
+    position: relative;
+    width: 60%;
+    z-index: 2;
+}
+
+
+.homeDescriptionContainer .secondDescription .img2 {
+    position: relative;
+    width: 60%;
+    left: 40%;
+    margin-top: -30%;
+    background-color: rgba(115, 0, 0, 0.198);
+}
+
+.homeDescriptionContainer .secondDescription .logo {
+    position: relative;
+    width: 30%;
+    left: 65%;
+    margin-top: -65%;
+    margin-bottom: 51%;
+}
+
+
+.homeDescriptionContainer .titleTop {
+    position: relative;
+    width: 40%;
+    height: 0px;
+    font-size: max(2vw,22px);
+    font-weight: 600;
+    margin-top: -60%;
+    margin-bottom: 60%;
+    padding-left: 5%;
+}
+
+.homeDescriptionContainer .titleBottom {
+    position: relative;
+    width: 40%;
+    height: 0px;
+    font-size: max(2vw,22px);
+    font-weight: 600;
+    margin-top: -40%;
+    margin-bottom: 42%;
+    padding-left: 45%;
+}
+
+
+.homeDescriptionContainer .secondDescription .img3 {
+    position: relative;
+    height: 20%;
+    margin-top: -20%;
+    padding: 1%;
+}
