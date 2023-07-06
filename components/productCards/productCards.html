@@ -1,7 +1,10 @@
 <body>
     <div class="productCardsContainer">
 
-        <img class="background" src="../../Assets/images/productsBackground.svg" alt="">
+        <!-- <img class="background" src="../../Assets/images/productsBackground.svg" alt=""> -->
+
+        <div class="background"></div>
+        
 
         <div class="productsTitle">
             Nuestros productos DL-Net
@@ -14,18 +17,21 @@
 
         <div class="cardsSubcontainer">
 
-            <div class="card" id="dlnetNimbusCard">
-                <img src="../../Assets/images/dlnetNinbus_card.svg" alt="">
-                <div class="cardText">
-                    <div class="square"></div>
-                    <div class="cardTitle">
-                        <div class="text">DL-Net Nimbus</div>
-                    </div>
-                    <div class="cardDescription">
-                        Genere sus cartillas para pedir el acero de refuerzo
+            <a id="dlnetNimbusLink" href="/dlnetNimbus" onclick="route()">
+                <div class="card" id="dlnetNimbusCard"> 
+                    <img src="../../Assets/images/dlnetNinbus_card.svg" alt="">
+                    <div class="cardText">
+                        <div class="square"></div>
+                        <div class="cardTitle">
+                            <div class="text">DL-Net Nimbus</div>
+                        </div>
+                        <div class="cardDescription">
+                            Genere sus cartillas para pedir el acero de refuerzo
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
+
             <div class="card" id="dlnetControlCard">
                 <img src="../../Assets/images/dlnetControl_card.svg" alt="">
                 <div class="cardText">
@@ -54,11 +60,13 @@
 
         </div>
 
+        
+
     </div>
 
 
 
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <!-- <script src="../../components/productCards/homeDescription.js"></script> -->
+    <script src="../../components/productCards/productCards.js"></script>
 </body>

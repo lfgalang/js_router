@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>dlnetNimbus</title>
-    <link rel="stylesheet" type="text/css" href="../../components/topbar/topbar.css">
+    <script src="https://cdn.jsdelivr.net/npm/page/page.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
 
-    <!-- function files of the linked components -->
-    <script src="../../pages/dlnetNimbus/dlnetNimbus.js"></script>
-    <script src="../../components/topbar/topbar.js"></script>
-    <script src="../../components/homeSlider/homeSlider.js"></script>
 
     <!-- styles of the components that are linked -->
-    <link rel="stylesheet" type="text/css" href="../../components/topbar/topbar.css">
-    <link rel="stylesheet" type="text/css" href="../../components/homeSlider/homeSlider.css">
+    <link rel="stylesheet" type="text/css" href="components/topbar/topbar.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetNimbusSlider/dlnetNimbusSlider.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetNimbusDescription/dlnetNimbusDescription.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetBenefits/dlnetBenefits.css">
+    <link rel="stylesheet" type="text/css" href="components/productCards/productCards.css">
+
 
 </head>
-<body>
-    <div class="dlnetNimbusContainer">
 
-        <h1 class="title" >Welcome to the dlnetNimbus Page</h1>
+<body>
+
+    <div id="topbarContainer"></div>
+
+    <div class="dlnetNimbusContainer">       
+
+        <div class="dlnetNimbusLeft"></div>
+
         
-        <!-- Calls to the other html components and content -->
-        <div id="topbarContainer"></div>
-        
-        <div id="homeSliderContainer"></div>
+        <div class="dlnetNimbusCenter">
+            <div id="dlnetNimbusSliderContainer"></div>
+
+            <div id="dlnetNimbusDescriptionContainer"></div>
+
+            <div id="dlnetBenefitsContainer"></div>
+
+            <div id="productCardsContainer"></div>
+        </div>
+
+
+        <div class="dlnetNimbusRight">right</div>
+
     </div>
 
-    
 
-    
-    <script src="../../pages/dlnetNimbus/dlnetNimbus.js"></script>
+    <!-- Link the scripts to the component -->
+    <script src="/pages/dlnetNimbus/dlnetNimbus.js"></script>
 </body>
+
 </html>

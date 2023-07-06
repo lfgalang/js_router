@@ -1,20 +1,10 @@
 
 
-$(document).ready(async function () {
-    try {
-        const host = await fetchToGetHost();
-
-        // console.log('host', host)
-
-        // Asignar la URL completa para redirigir al hacer clic en los botones
-        $("#dlnetNimbusCard").click(function () {
-            window.location.href = `${host}/dlnetNimbus`;
-        });
-
-        $("#dlnetNimbusButton").click(function () {
-            window.location.href = `${host}/pages/dlnetNimbus/dlnetNimbus.html`;
-        });
-    } catch (error) {
-        console.error(error);
-    }
-});
+// $(document).ready(function () {
+//     // Bind the click event to the link element
+//     $("#dlnetNimbusLink").click(function (event) {
+//         console.log(event)
+//         event.preventDefault(); // Prevent default link behavior
+//         route(event); // Call the route function from router.js
+//     });
+// });

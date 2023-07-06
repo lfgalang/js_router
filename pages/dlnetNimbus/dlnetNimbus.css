@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+
+
+#topbarContainer{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    z-index: 2;
+}
+
+
+.dlnetNimbusContainer{
+    position: relative;
+    display: flex;
+    margin-top: 65px;
+}
+
+.dlnetNimbusLeft{
+    flex: 1;
+}
+
+.dlnetNimbusContainer .dlnetNimbusCenter{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.dlnetNimbusRight{
+    flex: 1;
+}
