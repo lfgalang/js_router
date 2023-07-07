@@ -23,10 +23,34 @@ const handleLocation = async () => {
     const route = routes[path] || routes[404]; // Obtener la ruta correspondiente en base a la ubicación actual
     const htmlPath = `.${route}`; // Construir la ruta completa al archivo HTML
 
+    // Cargar el contenido de la página
     $("#pageContainer").load(htmlPath, function () {
-        var script = document.createElement("script");
-        script.src = `.${route.replace(".html", ".js")}`; // Construir la ruta completa al archivo JavaScript
-        document.head.appendChild(script);
+        // Obtener todas las imágenes en la página
+        const images = document.querySelectorAll("img");
+        const totalImages = images.length;
+        let loadedImages = 0;
+
+        // Función para verificar si todas las imágenes se han cargado
+        const checkAllImagesLoaded = () => {
+            loadedImages++;
+            if (loadedImages === totalImages) {
+                // Todas las imágenes se han cargado, mostrar el contenido completo
+                // Aquí puedes agregar lógica adicional para mostrar el contenido deseado
+                // Una vez que todas las imágenes se hayan cargado.
+                console.log("Todas las imágenes se han cargado");
+            }
+        };
+
+        // Verificar el estado de carga de cada imagen
+        images.forEach((image) => {
+            if (image.complete) {
+                // La imagen ya está cargada
+                checkAllImagesLoaded();
+            } else {
+                // Esperar a que la imagen se cargue
+                image.addEventListener("load", checkAllImagesLoaded);
+            }
+        });
     });
 };
 
@@ -35,10 +59,6 @@ const handleLocation = async () => {
 
 
 
-$(document).ready(function () {
-    $("#pageContainer").load("./pages/home/home.html", function () {
-        var script = document.createElement("script");
-        script.src = "./pages/home/home.js";
-        document.head.appendChild(script);
-      });
+$(document).ready(() => {
+    handleLocation()
 });
