@@ -10,4 +10,4 @@ $("#dlnetNimbusDescriptionContainer").load("../../components/dlnetNimbusDescript
 
 $("#dlnetBenefitsContainer").load("../../components/dlnetBenefits/dlnetBenefits.html");
 
-$("#productCardsContainer").load("../../components/productCards/productCards.html");
+$("#dlnetNimbusCardsContainer").load("../../components/dlnetNimbusCards/dlnetNimbusCards.html");

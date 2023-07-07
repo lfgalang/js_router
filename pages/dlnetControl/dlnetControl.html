@@ -1,0 +1,52 @@
+<!-- link this html with the page.js on which is goint to be called -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <script src="https://cdn.jsdelivr.net/npm/page/page.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+
+    <!-- styles of the components that are linked to the page -->
+    <link rel="stylesheet" type="text/css" href="components/topbar/topbar.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetControlSlider/dlnetControlSlider.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetControlDescription/dlnetControlDescription.css">
+    <link rel="stylesheet" type="text/css" href="components/dlnetBenefits/dlnetBenefits.css">
+    <link rel="stylesheet" type="text/css" href="components/productCards/productCards.css">
+
+
+</head>
+
+<body>
+
+    <div id="topbarContainer"></div>
+
+    <div class="dlnetControlContainer">       
+
+        <div class="dlnetControlLeft"></div>
+
+        
+        <div class="dlnetControlCenter">
+            <div id="dlnetControlSliderContainer"></div>
+
+            <div id="dlnetControlDescriptionContainer"></div>
+
+            <div id="dlnetBenefitsContainer"></div>
+
+            <div id="productCardsContainer"></div>
+        </div>
+
+
+        <div class="dlnetControlRight">right</div>
+
+    </div>
+
+
+    <!-- Link the scripts to the component -->
+    <script src="/pages/dlnetControl/dlnetControl.js"></script>
+</body>
+
+</html>

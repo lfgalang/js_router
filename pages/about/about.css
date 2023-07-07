@@ -1,0 +1,35 @@
+/* Link the css file with the page html on its going to be called */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
+
+
+
+#topbarContainer{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100vw;
+    z-index: 2;
+}
+
+
+.dlnetControlContainer{
+    position: relative;
+    display: flex;
+    margin-top: 65px;
+}
+
+.dlnetControlLeft{
+    flex: 1;
+}
+
+.dlnetControlContainer .dlnetControlCenter{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    background: #E7E7E7;
+}
+
+.dlnetControlRight{
+    flex: 1;
+}

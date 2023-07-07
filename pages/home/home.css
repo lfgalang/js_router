@@ -1,3 +1,5 @@
+/* Link the css file with the page html on its going to be called */
+
 @import url('https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap');
 
 
@@ -25,6 +27,7 @@
     flex: 4;
     display: flex;
     flex-direction: column;
+    background: #E7E7E7;
 }
 
 .homeRight{

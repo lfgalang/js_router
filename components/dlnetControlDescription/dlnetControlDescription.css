@@ -1,0 +1,126 @@
+/* Link the css file with the page html on its going to be called */
+
+#dlnetControlDescriptionContainer{
+    background: #191A1E;
+}
+
+.dlnetControlDescriptionContainer {
+    background: #E7E7E7;
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-top: 7%;
+}
+
+.dlnetControlDescriptionContainer .firstDescription {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+}
+
+.dlnetControlDescriptionContainer .firstDescription .textContainer {
+    width: 480px;
+    margin-top: 20px;
+}
+
+.dlnetControlDescriptionContainer .title {
+    line-height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.dlnetControlDescriptionContainer .text {
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+
+.dlnetControlDescriptionContainer .centralImage{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: -3%;
+    z-index: 1;
+}
+
+
+.dlnetControlDescriptionContainer .secondDescription {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.dlnetControlDescriptionContainer .secondDescription .img1 {
+    position: relative;
+    width: 60%;
+}
+
+
+.dlnetControlDescriptionContainer .secondDescription .img2 {
+    position: relative;
+    width: 60%;
+    left: 40%;
+    margin-top: -30%;
+    background-color: rgba(115, 0, 0, 0.198);
+}
+
+.dlnetControlDescriptionContainer .secondDescription .logo {
+    position: relative;
+    width: 30%;
+    left: 65%;
+    margin-top: -65%;
+    margin-bottom: 51%;
+}
+
+
+.dlnetControlDescriptionContainer .titleTop {
+    position: relative;
+    width: 40%;
+    height: 0px;
+    font-size: max(22px);
+    font-weight: 600;
+    margin-top: -60%;
+    margin-bottom: 60%;
+    padding-left: 5%;
+}
+
+.dlnetControlDescriptionContainer .subtitle{
+    height: 480px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
+.dlnetControlDescriptionContainer .titleBottom {
+    position: relative;
+    width: 40%;
+    height: 0px;
+    font-size: max(22px);
+    font-weight: 600;
+    margin-top: -40%;
+    margin-bottom: 42%;
+    padding-left: 45%;
+}
+
+.dlnetControlDescriptionContainer .secondDescription .img3Container{
+    display: flex;
+    justify-content: end;
+    margin-top: -49%;
+}
+
+
+.dlnetControlDescriptionContainer .secondDescription .img3 {
+    position: relative;
+    padding: 1%;
+    width: 75%;
+    text-align: end;
+}

@@ -1,0 +1,93 @@
+/* Link the css file with the page html on its going to be called */
+
+#dlnetNimbusCardsContainer {
+    height: max(30vh,470px);
+    color: white;
+    background: #E7E7E7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+.dlnetNimbusCardsContainer {
+    position: relative;
+    margin-bottom: -100%;
+    /* background-image:  url('../../Assets/images/productsBackground.svg'); */
+    background-repeat: no-repeat;
+    /* background-color: #a70000d4; */
+    background-size: 90%;
+    pointer-events: none;
+    z-index: 0;
+    margin-bottom:  max(-400px,-23vh);
+    height: 100%;
+}
+
+.dlnetNimbusCardsContainer .background{
+    margin-bottom: max(-400px,-15vh);
+    width: 93%;
+    background-color: #a70000d4;
+}
+
+
+.dlnetNimbusCardsContainer .productsTitle {
+    font-size: 30px;
+    padding-left: 50px;
+}
+
+.dlnetNimbusCardsContainer .productsSubtitle {
+    font-size: 25px;
+    width: 450px;
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer {
+    margin-top: 40px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer a {
+    pointer-events: all;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card {
+    background: white;
+    font-family: 'inria serif';
+    width: 190px;
+    height: 324px;
+    pointer-events: none;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card img {
+    width: 190px;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card .cardText {
+    padding: 10px;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card .square {
+    height: 70px;
+    width: 60px;
+    background-color: #D9D9D9;
+    margin-bottom: -70px;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card .cardTitle {
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dlnetNimbusCardsContainer .cardsSubcontainer .card .cardDescription {
+    color: black;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
